@@ -1,0 +1,12 @@
+.project-img {
+  display: block;
+}
+
+.project-description {
+  background: #043769f1;
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+  border: 3px solid #043769f1;
+  display: none;
+}

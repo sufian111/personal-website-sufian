@@ -1,0 +1,23 @@
+.nav-link a {
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  text-decoration: none;
+  font-size: 1rem;
+  outline: none;
+}
+.nav-link {
+  color: #e6f1ff;
+  margin-right: 0.5em;
+  margin-left: 0.5em;
+}
+.nav-link:hover {
+  color: #64ffda !important;
+  text-decoration: none !important;
+}
+a:hover {
+  text-decoration: none !important;
+}
+
+.nav-link:active {
+  border-top: 1px solid #64ffda;
+}

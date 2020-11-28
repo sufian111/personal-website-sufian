@@ -1,0 +1,20 @@
+.contact-details h5 {
+  font-size: 26px;
+  font-weight: 900;
+}
+.contact-details a {
+  text-decoration: none;
+  outline: none;
+  color: white;
+}
+
+.contact-details li {
+  margin-top: 5px;
+}
+.contact-page p {
+  font-size: 20px;
+}
+
+.contact-page a {
+  font-size: 20px;
+}
