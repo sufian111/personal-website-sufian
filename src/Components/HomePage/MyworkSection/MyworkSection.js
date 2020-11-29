@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import bestWork from "../../Data/Bestworks";
-import SingleWordCard from "./SingleWordCard";
 import { BiArrowFromBottom } from "react-icons/bi";
+import ProjectDetails from "./ProjectDetails";
 const MyworkSection = () => {
   const scrollTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -40,14 +40,19 @@ const MyworkSection = () => {
           </h2>
         </div>
       )}
-      <div className="">
+      <div className="row p-4">
         {locationPath === "/" &&
           allBestWork
             .slice(0, 3)
-            .map((work) => <SingleWordCard work={work}></SingleWordCard>)}
+            .map((project) => (
+              <ProjectDetails
+                key={project.id}
+                project={project}
+              ></ProjectDetails>
+            ))}
         {locationPath === "/works" &&
-          allBestWork.map((work) => (
-            <SingleWordCard work={work}></SingleWordCard>
+          allBestWork.map((project) => (
+            <ProjectDetails key={project.id} project={project}></ProjectDetails>
           ))}
       </div>
       <div className="mt-5 pt-5" style={{ textAlign: "center" }}>

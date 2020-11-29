@@ -17,7 +17,7 @@ const ContactPage = () => {
           </p>
           <a
             target="_blank"
-            href="https://drive.google.com/file/d/1YSAM6WRbnb0CBgehKeBYMQvJLycwSQuK/view"
+            href="https://drive.google.com/file/d/1NJW0e6-CK0JMo6bwyyBdW4xPFh9MWN3G/view"
           >
             <button class="btn btn-outline-success p-3">Resume</button>
           </a>
