@@ -31,6 +31,32 @@ var bestWork = [
     live: "https://travel-guru-agency.netlify.app/",
     gitHub: "https://github.com/sufian111/Travel-Guru-Finished-Project",
   },
+  {
+    id: "104",
+    name: "Apartment Hunt",
+    description:
+      "It's a full MERN stack Web Application where anyone can see which houses we are providing and can book a house with their details.",
+    technology: [
+      "react.js",
+      "express.js",
+      "mongodb",
+      "firebase-auth , nodejs, ",
+    ],
+    image: "https://i.ibb.co/H4N4LsK/Login.png",
+    live: "https://apartment-hunt-ltd.netlify.app/",
+    gitHub:
+      "https://github.com/sufian111/Aparment-hunt-finished-project-client",
+  },
+  {
+    id: "105",
+    name: "Apartment Hunt",
+    description:
+      "An application using react that connects to the iTunes connect API to retrieve songs for a search term. ",
+    technology: ["ReactJS", "Bootstrap"],
+    image: "https://i.ibb.co/QXHpfWt/Ituens.png",
+    live: "https://react-itune-search-song.netlify.app/",
+    gitHub: "https://github.com/sufian111/React--Programming-Challenge",
+  },
 ];
 
 export default bestWork;
