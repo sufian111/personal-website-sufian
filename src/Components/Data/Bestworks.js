@@ -49,7 +49,7 @@ var bestWork = [
   },
   {
     id: "105",
-    name: "Apartment Hunt",
+    name: "React-itune-search-song",
     description:
       "An application using react that connects to the iTunes connect API to retrieve songs for a search term. ",
     technology: ["ReactJS", "Bootstrap"],

@@ -30,7 +30,7 @@ const ContactPage = () => {
                   <strong>Email</strong>
                 </h5>
                 <p className="mr-5">
-                  mdaabusufian069@gmail.com <span>(Recommended)</span>
+                  mdabusufian069@gmail.com <span>(Recommended)</span>
                 </p>
               </li>
               <li>

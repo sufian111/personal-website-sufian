@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "./NavBarTop.css";
 import { BiAlignLeft } from "react-icons/bi";
 const NavBarTop = () => {
@@ -29,37 +29,37 @@ const NavBarTop = () => {
           <ul class="navbar-nav ml-auto">
             <Link to="/">
               <li class="nav-item">
-                <a class="nav-link active" href="/">
+                <NavLink exact className="nav-link h5" to="/">
                   Home
-                </a>
+                </NavLink>
               </li>
             </Link>
             <Link to="/about">
               <li class="nav-item">
-                <a class="nav-link" href="/about">
+                <NavLink exact className="nav-link h5" to="/about">
                   About
-                </a>
+                </NavLink>
               </li>
             </Link>
             <Link to="/works">
               <li class="nav-item">
-                <a class="nav-link" href="/about">
+                <NavLink exact className="nav-link h5" to="/works">
                   Works
-                </a>
+                </NavLink>
               </li>
             </Link>
             <Link to="/blog">
               <li class="nav-item">
-                <a class="nav-link" href="/about">
+                <NavLink exact className="nav-link h5" to="/blog">
                   Blog
-                </a>
+                </NavLink>
               </li>
             </Link>
             <Link to="/contact">
               <li class="nav-item">
-                <a class="nav-link" href="/about">
+                <NavLink exact className="nav-link h5" to="/contact">
                   Contact
-                </a>
+                </NavLink>
               </li>
             </Link>
             <a
